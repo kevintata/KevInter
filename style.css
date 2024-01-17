@@ -54,7 +54,7 @@ h1{
     margin: auto;    
     text-align: center;
     width:96.9vw;
-    height: 50vh;    
+    height: 60vh;    
     padding:40px 1.55vw;
     background: var(--white);
     font-size: 21px;
@@ -172,6 +172,8 @@ footer{
     #container-dollar{
         justify-content: space-evenly;
         font-size: 18px;
+        height: 50vh;    
+
     }
 
     #inputs{
