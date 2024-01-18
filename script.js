@@ -29,9 +29,9 @@ const getDollar = async () => {
     const highBrl = Number(high)
     const lowBrl = Number(low)
 
-    today.innerHTML = `Dollar = R$${todayBrl.toFixed(4)}`
-    todayhigh.innerHTML = `High = R$${highBrl.toFixed(3)}`
-    todaylow.innerHTML = `Low = R$${lowBrl.toFixed(3)}`
+    today.innerHTML = `Dollar = R$${todayBrl.toFixed(2)}`
+    todayhigh.innerHTML = `High = R$${highBrl.toFixed(2)}`
+    todaylow.innerHTML = `Low = R$${lowBrl.toFixed(2)}`
 
 
 
