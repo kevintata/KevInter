@@ -19,11 +19,13 @@
 }
 
 body{
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #FBFCFF;
+    background: linear-gradient(#EA7100 50%, #FBFCFF 50%);
+    background-repeat: no-repeat;
     font-family: "inter-font";
 }
 
